@@ -1,0 +1,1149 @@
+body {
+    background-color: black;
+
+}
+
+.top {
+    height: 150vh;
+    width: 100%;
+    background-image: url(../image/avada-nightclub-home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -10px;
+    z-index: 10;
+
+    >.memories {
+        width: 70%;
+        text-transform: capitalize;
+        font-size: 40px;
+        margin-left: 250px;
+        border-top: 7px solid rgb(43, 98, 236);
+        color: white;
+        margin-top: 380px;
+        height: 180px;
+        background-color: rgba(0, 0, 0, 0.289);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >a {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bolder;
+
+
+        }
+    }
+
+    >.vip {
+        width: 250px;
+        height: 60px;
+        background-color: rgb(237, 32, 100);
+        position: absolute;
+        bottom: 160px;
+        left: calc(50% - 150px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >a {
+            color: white;
+            font-size: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-transform: uppercase;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 100%;
+            // background-color: blue;
+
+        }
+
+        >a:hover {
+            background-color: rgb(237, 32, 59);
+        }
+    }
+
+    >.play {
+        position: absolute;
+        bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: -20px;
+
+
+        // border: 1px solid brown;
+
+
+
+        >a {
+            color: rgb(29, 171, 218);
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-size: 20px;
+
+            >i {
+                font-size: 70px;
+                color: rgb(29, 171, 218);
+            }
+
+        }
+    }
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    position: absolute;
+    top: 148px;
+    left: 140px;
+    z-index: 10;
+
+}
+
+.menu {
+    margin-top: 90px;
+    width: 100%;
+    // border: 1px solid red;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    z-index: 10;
+
+    >ul {
+        // background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        >li {
+            // background-color: aquamarine;
+            // border: 1px solid black;
+            padding: 35px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            height: 80px;
+
+
+
+            >.sub {
+                // background-color: aquamarine !important;
+                position: absolute;
+                top: 50px;
+                width: 170px;
+                height: 280px;
+                // border: 1px solid red;
+                // background-color: rgba(0, 0, 0, 0.4);
+                margin-top: 33px;
+                // padding-bottom: 45px;
+                // height: 60px;
+                opacity: 0;
+
+                >li {
+                    // padding: 20px 0;
+                    // border: 1px solid black;
+                    width: 100%;
+                    // margin-top: 15px;
+                    z-index: 999;
+
+                    // background-color: red;
+
+                    // height: 100%;
+
+                    >a {
+                        display: flex;
+                        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                        color: #fff;
+                        font-size: 15px;
+                        width: 100%;
+                        height: 100%;
+                        text-transform: capitalize;
+                        z-index: 999;
+
+                    }
+                }
+
+            }
+
+            :hover~.sub {
+                opacity: 1 !important;
+                position: absolute;
+                // width: 100%;
+                // background-color: rebeccapurple;
+            }
+
+            >a {
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                display: flex;
+                color: white;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: bolder;
+                // background-color: aqua;
+                height: 100%;
+                width: 100%;
+
+                >img {
+                    margin-top: -70px;
+                }
+
+
+            }
+
+            transition: 1s;
+
+
+            &:hover {
+                border-bottom: 4px solid rgb(228, 50, 110);
+
+
+            }
+
+            &:nth-of-type(4):hover {
+                border-bottom: none !important;
+            }
+        }
+
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+    // height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(228, 50, 110);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+//   ::-webkit-scrollbar-thumb:hover {
+//     background: #b30000; 
+//   }
+
+.main_body {
+    background-image: url(../image/avada-nightclub-cloud-background.jpg);
+    height: 210vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    left: -10px;
+    z-index: 10;
+
+    >.welcome {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+
+        // background-color: blue;
+        >h1 {
+            width: 100%;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: rgb(29, 171, 218);
+            text-transform: uppercase;
+            position: absolute;
+            left: 30%;
+
+            top: 50%;
+            // display: flex;
+        }
+
+        >h2 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: #fff;
+            text-transform: capitalize;
+            width: 100%;
+            position: absolute;
+            font-size: 60px;
+            left: 20%;
+            top: 60%;
+            // display: flex;
+        }
+
+        >p {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: gray;
+            position: absolute;
+            left: 15%;
+            top: 80%;
+            text-align: center;
+            width: 60%;
+
+        }
+    }
+
+    >.gallery {
+
+        width: 100%;
+        height: 400px;
+        margin-top: 300px;
+        margin-left: 100px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        // overflow: hidden;
+        // background-color: red;
+
+        >figure:nth-of-type(1) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: red;
+            // border: 1px solid green;
+            position: absolute;
+        // overflow: hidden;
+
+            >img {
+                object-fit: cover;
+                height: 450px;
+                position: absolute;
+                top: 100px;
+                left: 45px;
+                cursor: pointer;
+                width: 450px;
+                
+
+            }
+
+            >figcaption {
+                font-size: 30px;
+                width: 10000px;
+                color: white;
+                position: absolute;
+                top: 500px;
+                left: 75px;
+                text-transform: capitalize;
+                z-index: 999;
+
+                // border: 1px solid brown;
+            }
+
+            transition: 1s;
+            // &:hover>img{
+            //     width: 120%;
+            // height: 120%;
+            // right: -10%;
+            // bottom: -10%;
+            // background-color: red;
+            // }
+        }
+
+        >figure:nth-of-type(2) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: red;
+            // border: 1px solid green;
+            position: absolute;
+            z-index: 999;
+
+            >img {
+                object-fit: cover;
+                height: 450px;
+                position: absolute;
+                width: 460px;
+                top: 100px;
+                left: 500px;
+                cursor: pointer;
+                // background-color: red;
+
+            }
+
+            >figcaption {
+                font-size: 30px;
+                width: 10000px;
+                color: white;
+                position: absolute;
+                top: 500px;
+                text-transform: capitalize;
+                left: 535px;
+                // border: 1px solid brown;
+            }
+        }
+
+        >figure:nth-of-type(3) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: red;
+            // border: 1px solid green;
+            position: absolute;
+            z-index: 999;
+
+            >img {
+                object-fit: cover;
+                height: 450px;
+                position: absolute;
+                top: 550px;
+                left: 40px;
+                width: 460px;
+
+
+                cursor: pointer;
+                // background-color: red;
+
+            }
+
+            >figcaption {
+                font-size: 30px;
+                width: 10000px;
+                color: white;
+                position: absolute;
+                top: 950px;
+                text-transform: capitalize;
+                left: 75px;
+                // border: 1px solid brown;
+            }
+        }
+
+        >figure:nth-of-type(4) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: red;
+            // border: 1px solid green;
+            position: absolute;
+            z-index: 999;
+
+            >img {
+                object-fit: cover;
+                height: 450px;
+                position: absolute;
+                top: 550px;
+                left: 500px;
+                width: 460px;
+
+
+                cursor: pointer;
+                // background-color: red;
+
+            }
+
+            >figcaption {
+                font-size: 30px;
+                width: 10000px;
+                color: white;
+                position: absolute;
+                top: 950px;
+                text-transform: capitalize;
+                left: 550px;
+                // border: 1px solid brown;
+            }
+        }
+    }
+
+    .djs {
+        // margin-top: 1300030px;
+        z-index: 10;
+
+        >.djPouya {
+            height: 90vh;
+            background-image: url(../image/avada-nightclub-resident-profile.jpg);
+            filter: brightness(90%);
+            background-repeat: no-repeat;
+            background-size: 110% 99%;
+            border-top: 5px solid rgb(228, 50, 110);
+            // background-position: 50% ;
+            width: 50%;
+            // height: 500px;
+            position: absolute;
+            top: 1569px;
+            left: 0px;
+
+            // display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            >h3 {
+                color: rgb(228, 50, 110);
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: uppercase;
+                position: absolute;
+                font-size: 25px;
+                font-weight: bold;
+                top: 35px;
+                left: 40px;
+            }
+
+            >h2 {
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: uppercase;
+                font-size: 50px;
+                position: absolute;
+                top: 85px;
+                left: 40px;
+
+            }
+
+            >div {
+                width: 180px;
+                height: 60px;
+                background-color: rgb(56, 124, 201);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                color: #fff;
+                font-size: 15px;
+                font-weight: bolder;
+                text-transform: uppercase;
+                position: absolute;
+                top: 165px;
+                left: 40px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(92, 56, 201);
+
+                }
+
+            }
+
+        }
+
+        >.djLissa {
+            height: 90vh;
+            background-image: url(../image/avada-nightclub-lisahouse-inset-new.jpg);
+            filter: brightness(90%);
+            background-repeat: no-repeat;
+            background-size: 110% 99%;
+            border-top: 5px solid rgb(58, 58, 252);
+            // background-position: 50% ;
+            width: 50%;
+            // height: 500px;
+            position: absolute;
+            top: 1569px;
+            right: 0px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >h3 {
+                color: rgb(58, 58, 252);
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: uppercase;
+                position: absolute;
+                font-size: 25px;
+                font-weight: bold;
+                top: 35px;
+                left: 40px;
+            }
+
+            >h2 {
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: uppercase;
+                font-size: 50px;
+                position: absolute;
+                top: 85px;
+                left: 40px;
+
+            }
+
+            >div {
+                width: 180px;
+                height: 60px;
+                background-color: rgb(228, 50, 110);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                color: #fff;
+                font-size: 15px;
+                font-weight: bolder;
+                text-transform: uppercase;
+                position: absolute;
+                top: 165px;
+                left: 40px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(211, 5, 74);
+
+                }
+
+            }
+
+        }
+    }
+}
+
+.events {
+    position: relative;
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 650px;
+    z-index: 10;
+
+    &::before {
+        content: "";
+        background-image: url(../image/avada-nightclub-homepage-events-background-new.jpg);
+        background-repeat: repeat-y;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+
+    // .events{
+    //     margin-top: 650px;
+    //     height: 140vh;
+    //     width: 100%;
+    //     background-image: url(../image/avada-nightclub-homepage-events-background-new.jpg) ;
+    //     opacity: .8;
+    //     background-size: 120% 99%;
+
+    // background-size: contain;
+    // background-repeat: repeat-y;
+    >.special {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        >h2 {
+            font-size: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: rgb(228, 50, 110);
+            text-transform: uppercase;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            left: 45%;
+            top: 33px;
+            opacity: 1 !important;
+        }
+
+        >h3 {
+            font-size: 40px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: white;
+            text-transform: uppercase;
+            position: absolute;
+            width: 100%;
+            height: 300px;
+            left: 40%;
+            top: 80px;
+        }
+    }
+
+    >.gallery {
+        height: calc(120vh - 400px);
+        width: 100%;
+        position: relative;
+
+        // margin-top: 700px;
+        >.gallery__item--1 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: 190px;
+                left: 40px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 170px;
+                    bottom: 160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 170px;
+                    bottom: 130px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+
+        >.gallery__item--2 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: 190px;
+                left: 910px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10000px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 1000px;
+                    bottom: 160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 1000px;
+                    bottom: 125px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+
+        >.gallery__item--3 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: 190px;
+                left: 470px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10000px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 570px;
+                    bottom: 160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 570px;
+                    bottom: 135px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+
+        >.gallery__item--4 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: -120px;
+                left: 40px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10000px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 100px;
+                    bottom: -160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 120px;
+                    bottom: -185px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+
+        >.gallery__item--6 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: -120px;
+                left: 910px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10000px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 1000px;
+                    bottom: -160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 1000px;
+                    bottom: -185px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+
+        >.gallery__item--5 {
+
+            >img {
+                object-fit: cover;
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                bottom: -120px;
+                left: 470px;
+                transition: 1s;
+
+            }
+
+            >figcaption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10000px;
+                // border: 1px solid wheat;
+
+                >h3 {
+                    font-size: 20px;
+                    color: rgb(255, 21, 110);
+                    position: absolute;
+                    left: 570px;
+                    bottom: -160px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+
+                >p {
+                    font-size: 12px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    color: #fff;
+                    position: absolute;
+                    left: 570px;
+                    bottom: -185px;
+
+                }
+            }
+
+            &:hover>img {
+                border: 3px solid white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .reserve_btn {
+        background-color: rgb(255, 4, 104);
+        opacity: 1 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 70px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        z-index: 999;
+        margin-top: -200px;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+            background-color: rgb(165, 9, 72);
+        }
+    }
+}
+
+.exclusive {
+    height: 40vh;
+    background-image: url(../image/avada-nightclub-vip-hero-new.jpg);
+    width: 100%;
+    position: relative;
+    z-index: 10;
+
+    // margin-bottom: 1000px;
+    >h2 {
+        text-transform: uppercase;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: rgb(4, 211, 253);
+        font-size: 22px;
+        position: absolute;
+        left: 25%;
+        top: 40%
+    }
+
+    >h3 {
+        text-transform: capitalize;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        left: 25%;
+        top: 55%
+    }
+
+    >div {
+        width: 180px;
+        height: 60px;
+        color: #fff;
+        background-color: rgb(255, 0, 98);
+        text-transform: uppercase;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 400px;
+        bottom: 120px;
+        cursor: pointer;
+        transition: .8s;
+
+        &:hover {
+            background-color: rgb(188, 5, 75);
+
+        }
+    }
+}
+
+.footer {
+    // margin-top: 1000px ;
+    height: 90vh;
+    background-image: url(../image/avada-nightclub-footer-background-final-2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0 !important;
+
+    >h4 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 15px;
+        z-index: 0 !important;
+
+        &:nth-of-type(1) {
+            // width: 270px;
+            // height: 200px;
+            left: 24%;
+            bottom: 550px;
+            position: fixed;
+            // z-index: 9999 !important;
+        }
+
+        &:nth-of-type(2) {
+            right: 24%;
+            bottom: 550px;
+            position: fixed;
+        }
+    }
+
+    >.logo {
+        cursor: pointer;
+        position: fixed;
+        width: 270px;
+        height: 200px;
+        left: 40%;
+        bottom: 470px;
+        z-index: 0;
+
+
+        // bottom:1000px;
+    }
+
+    >p {
+        color: rgb(175, 168, 168);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: capitalize;
+        width: 150px;
+        height: 100px;
+        position: fixed;
+        bottom: 400px;
+        line-height: 39px;
+
+        // z-index: 0;
+        >strong {
+            text-transform: lowercase;
+            color: rgb(0, 191, 255);
+        }
+    }
+
+    .footer_pic {
+        overflow: hidden;
+        position: fixed;
+        // bottom: 400px;
+        // left: 40%;
+
+        >.rooftop,
+        .dance {
+            width: 430px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: 1s all ease-in-out;
+
+
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+        >.rooftop{
+            position: fixed;
+        bottom: 300px;
+        right: 10%;
+
+        }
+        >.dance{
+            position: fixed;
+        bottom: 70px;
+        right: 10%;
+
+        }
+
+
+    }
+    >.logos{
+        color: #fff;
+        position: fixed;
+        bottom: 180px;
+        font-size: 20px;
+        >i{
+            cursor: pointer;
+            transition: .8s;
+            &:hover{
+                opacity:.5 ;
+            }
+        }
+    }
+    >.final{
+        text-transform: capitalize;
+        width: 100%;
+        position: fixed;
+        bottom:-50px;
+        left: 40%;
+        >strong{
+            color: rgb(230, 0, 255);
+            text-transform: capitalize;
+            font-style: italic;
+        }
+    }
+}
